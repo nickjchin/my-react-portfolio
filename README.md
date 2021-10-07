@@ -1,1 +1,1 @@
-# my-react-portfolio
+# react-portfolio
