@@ -3,8 +3,8 @@ import React from "react";
 export default function Welcome({ onLoad, setOnLoad }) {
   return (
     <div>
-      <header className="jumbotron jumbotron-fluid">
-        <h1 className="display-4">Nicholas Chin</h1>
+      <header className="jumbotron jumbotron-fluid text-center text-light m-0">
+        <h1 className="display-4 font-weight-normal text-center">Nicholas Chin</h1>
       </header>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <button
