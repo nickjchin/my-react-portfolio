@@ -21,13 +21,13 @@ export default function Welcome({ onLoad, setOnLoad }) {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#aboutme">
+              <a className="nav-link" href="#" onClick={() => setOnLoad(!onLoad)}>
                 About Me <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#work">
-                Work
+              <a className="nav-link" href="#" onClick={() => setOnLoad(!onLoad)}>
+                Projects
               </a>
             </li>
             <li className="nav-item">
@@ -73,7 +73,7 @@ export default function Welcome({ onLoad, setOnLoad }) {
       ) : (
         // If Not onLoad, shows projects
         <div className="container-fluid m-0 project-card-group">
-          <h2 className="text-center text-light p-4" id="work">
+          <h2 className="text-center text-light p-4" id="project">
             Projects
           </h2>
           <div className="row d-flex justify-content-around p-5 align-items-center">
@@ -293,47 +293,45 @@ export default function Welcome({ onLoad, setOnLoad }) {
       )}
       {/* Footer */}
       <footer className="bg-dark text-light mt-0 pt-3" id="contact">
-      {/* Social Media */}
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <ul className="text-center d-flex justify-content-around social">
-              <li className="d-inline">
-                <a href="https://www.linkedin.com" target="_blank">
-                  <i className="fab fa-linkedin-in fa-lg"></i>
-                </a>
-              </li>
-              <li className="d-inline">
-                <a href="https://www.github.com/nickjchin/" target="_blank">
-                  <i className="fab fa-github fa-lg"></i>
-                </a>
-              </li>
-              <li className="d-inline">
-                <a href="https://www.twitter.com" target="_blank">
-                  <i className="fab fa-twitter fa-lg"></i>
-                </a>
-              </li>
-              <li className="d-inline">
-                <a href="https://www.instagram.com" target="_blank">
-                  <i className="fab fa-instagram fa-lg"></i>
-                </a>
-              </li>
-              <li className="d-inline">
-                <a href="https://www.facebook.com" target="_blank">
-                  <i className="fab fa-facebook-f fa-lg"></i>
-                </a>
-              </li>
-            </ul>
+        {/* Social Media */}
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <ul className="text-center d-flex justify-content-around social">
+                <li className="d-inline">
+                  <a href="https://www.linkedin.com" target="_blank">
+                    <i className="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </li>
+                <li className="d-inline">
+                  <a href="https://www.github.com/nickjchin/" target="_blank">
+                    <i className="fab fa-github fa-lg"></i>
+                  </a>
+                </li>
+                <li className="d-inline">
+                  <a href="https://www.twitter.com" target="_blank">
+                    <i className="fab fa-twitter fa-lg"></i>
+                  </a>
+                </li>
+                <li className="d-inline">
+                  <a href="https://www.instagram.com" target="_blank">
+                    <i className="fab fa-instagram fa-lg"></i>
+                  </a>
+                </li>
+                <li className="d-inline">
+                  <a href="https://www.facebook.com" target="_blank">
+                    <i className="fab fa-facebook-f fa-lg"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12"></div>
+            <p className="mx-auto mt-3">&copy;2021. Nicholas Chin. All rights reserved</p>
           </div>
         </div>
-        <div className="row">
-          <div className="col-12"></div>
-          <p className="mx-auto mt-3">&copy;2021. Nicholas Chin. All rights reserved</p>
-        </div>
-      </div>
-    </footer>
-
-
+      </footer>
     </div>
   );
 }
