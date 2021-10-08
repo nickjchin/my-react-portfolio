@@ -1,10 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Portfolio from "./components/Portfolio";
 
-function App() {
-  const [onLoad, setOnLoad] = useState(false);
-
-  return <Portfolio onLoad={onLoad} setOnLoad={setOnLoad} />;
-}
+const App = ()=><Portfolio />
 
 export default App;

@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Portfolio.css";
 
-export default function Welcome({ onLoad, setOnLoad }) {
+export default function Portfolio({ onLoad, setOnLoad }) {
   return (
     <div>
       <header className="jumbotron jumbotron-fluid text-center text-light m-0">
