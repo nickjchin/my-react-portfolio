@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Portfolio.css";
 
 export default function Welcome({ onLoad, setOnLoad }) {
   return (
@@ -20,9 +21,9 @@ export default function Welcome({ onLoad, setOnLoad }) {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
-            <li className="nav-item active">
+            <li className="nav-item">
               <a className="nav-link" href="#" onClick={() => setOnLoad(!onLoad)}>
-                About Me <span className="sr-only">(current)</span>
+                About
               </a>
             </li>
             <li className="nav-item">
@@ -32,7 +33,12 @@ export default function Welcome({ onLoad, setOnLoad }) {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">
-                Contact Me
+                Contact
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#resume">
+                Resume
               </a>
             </li>
           </ul>
@@ -299,7 +305,7 @@ export default function Welcome({ onLoad, setOnLoad }) {
             <div className="col-12">
               <ul className="text-center d-flex justify-content-around social">
                 <li className="d-inline">
-                  <a href="https://www.linkedin.com" target="_blank">
+                  <a href="https://www.linkedin.com/in/nicholaschin23/" target="_blank">
                     <i className="fab fa-linkedin-in fa-lg"></i>
                   </a>
                 </li>
@@ -309,18 +315,8 @@ export default function Welcome({ onLoad, setOnLoad }) {
                   </a>
                 </li>
                 <li className="d-inline">
-                  <a href="https://www.twitter.com" target="_blank">
+                  <a href="https://twitter.com/NicholasJChin" target="_blank">
                     <i className="fab fa-twitter fa-lg"></i>
-                  </a>
-                </li>
-                <li className="d-inline">
-                  <a href="https://www.instagram.com" target="_blank">
-                    <i className="fab fa-instagram fa-lg"></i>
-                  </a>
-                </li>
-                <li className="d-inline">
-                  <a href="https://www.facebook.com" target="_blank">
-                    <i className="fab fa-facebook-f fa-lg"></i>
                   </a>
                 </li>
               </ul>
