@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <header className="jumbotron jumbotron-fluid text-center text-light m-0">
-      <h1 className="display-4 font-weight-normal text-center">Nicholas Chin</h1>
+      <h1 className="display-4 font-weight-normal text-center m-0">Nicholas Chin</h1>
     </header>
   );
 }
