@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Navbar({ currentPage, handlePageChange }) {
+function Navbar({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <button
@@ -17,37 +17,41 @@ export default function Navbar({ currentPage, handlePageChange }) {
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a 
-            className="nav-link" href="#about"
-            onClick={() => handlePageChange("About")}
-            className={currentPage === "About" ? "nav-link active" : "nav-link"
+            <a
+              className="nav-link"
+              href="#about"
+              onClick={() => handlePageChange("About")}
+              className={currentPage === "About" ? "nav-link active" : "nav-link"}
             >
               About
             </a>
           </li>
           <li className="nav-item">
-            <a 
-            className="nav-link" href="#projects"
-            onClick={() => handlePageChange("Projects")}
-            className={currentPage === "Projects" ? "nav-link active" : "nav-link"}
+            <a
+              className="nav-link"
+              href="#projects"
+              onClick={() => handlePageChange("Projects")}
+              className={currentPage === "Projects" ? "nav-link active" : "nav-link"}
             >
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a 
-            className="nav-link" href="#contact"
-            onClick ={() => handlePageChange("Contact")}
-            className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+            <a
+              className="nav-link"
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+              className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
             >
               Contact
             </a>
           </li>
           <li className="nav-item">
-            <a 
-            className="nav-link" href="#resume"
-            onClick = {() => handlePageChange("Contact")}
-            className = {currentPage === "Contact" ? "nav-link-active" : "nav-link"}
+            <a
+              className="nav-link"
+              href="#resume"
+              onClick={() => handlePageChange("Contact")}
+              className={currentPage === "Contact" ? "nav-link-active" : "nav-link"}
             >
               Resume
             </a>
@@ -58,3 +62,4 @@ export default function Navbar({ currentPage, handlePageChange }) {
   );
 }
 
+export default Navbar;
