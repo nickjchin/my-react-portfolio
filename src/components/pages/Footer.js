@@ -27,7 +27,7 @@ function Footer() {
         </div>
         <div className="row">
           <div className="col-12"></div>
-          <p className="mx-auto mt-3">&copy;2021. Nicholas Chin. All rights reserved</p>
+          <p className="text-center mt-3">&copy;2021. Nicholas Chin. All rights reserved</p>
         </div>
       </div>
     </footer>
