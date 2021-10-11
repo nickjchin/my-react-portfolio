@@ -1,10 +1,15 @@
 import React from "react";
 export default function Project() {
   return (
-    <div className="container-fluid m-0 project-card-group">
-      <h2 className="text-center text-light p-4" id="project">
-        Portfolio
-      </h2>
+    <div className="container-fluid project-card-group">
+      <div className="row">
+        <div className="col-12">
+          <h2 className="text-center text-light mt-4" id="project">
+            Portfolio
+          </h2>
+        </div>
+      </div>
+
       <div className="row d-flex justify-content-around p-5 align-items-center">
         {/* Card 1 */}
         <div className="col-md-4 col-sm-6 mb-4">
