@@ -3,7 +3,7 @@ export default function Project() {
   return (
     <div className="container-fluid m-0 project-card-group">
       <h2 className="text-center text-light p-4" id="project">
-        Projects
+        Portfolio
       </h2>
       <div className="row d-flex justify-content-around p-5 align-items-center">
         {/* Card 1 */}
