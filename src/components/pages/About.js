@@ -5,7 +5,7 @@ export default function About() {
     <div className="container-fluid about">
       <div className="row">
         <div className="col-12">
-          <h2 className="text-center text-light m-0">About Me</h2>
+          <h2 className="text-center text-light mt-4">About Me</h2>
         </div>
       </div>
       <div className="row d-flex flex-row justify-content-center p-5 align-items-center ">
