@@ -26,6 +26,8 @@ export default function Portfolio() {
   return (
     <div>
         <Header />
+
+        {renderPage()}
         <Footer />
     </div>
   );
