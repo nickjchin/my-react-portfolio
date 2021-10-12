@@ -4,7 +4,7 @@ import resumePDF from "../../documents/Nicholas-Chin's-Resume.pdf";
 
 export default function Resume() {
   return (
-    <div className="container-fluid m-0">
+    <div className="container-fluid m-0 resume">
       <div className="row">
         <div className="col-12">
           <h2 className="text-center" id="resume">
@@ -13,7 +13,7 @@ export default function Resume() {
         </div>
         <div className="resume-img text-center ">
           <img src={resume} className="img-responsive w-25 border mx-auto d-block"></img>
-          <a href={resumePDF} target={"_blank"} className="resume">
+          <a href={resumePDF} target={"_blank"} className="resume-links">
             Open
           </a>
           <a href={resumePDF} download>
