@@ -20,11 +20,39 @@ export default function Resume() {
             Download
           </a>
         </div>
-        <div className="row">
+        <div className="row my-5 ">
           <div className="col-12">
-            <h3 className="text-center" id="skills">
-              Skills
-            </h3>
+            <table className="table w-50 mx-auto">
+              <thead>
+                <tr>
+                  <th scope="col" className="text-center"></th>
+                  <th scope="col" className="text-center">
+                    <h2>Skills</h2>
+                  </th>
+                  <th scope="col" className="text-center"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="text-center">HTML</td>
+                  <td className="text-center">CSS</td>
+                  <td className="text-center">JavaScript</td>
+                </tr>
+                <tr>
+                  <td className="text-center">jQuery</td>
+                  <td className="text-center">Bootstrap</td>
+                  <td className="text-center">Bulma</td>
+                </tr>
+                <tr>
+                  <td className="text-center">Node</td>
+                  <td className="text-center">Express</td>
+                  <td className="text-center">React</td>
+                </tr>
+                <tr>
+                  <td className="text-center">MongoDB</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
