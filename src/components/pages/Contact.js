@@ -43,6 +43,9 @@ function Contact() {
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
     }
+    if (!email) {
+      setEmailErrorMessage("Email is required");
+    }
   };
   const handleMessageChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -51,11 +54,7 @@ function Contact() {
     const inputValue = target.value;
 
     // Based on the input type, we set the state of either email, username, and password
-    if (inputType === "email") {
-      setEmail(inputValue);
-    } else if (inputType === "name") {
-      setName(inputValue);
-    } else {
+    if (inputType === "message") {
       setMessage(inputValue);
     }
 
@@ -63,6 +62,8 @@ function Contact() {
       setMessageErrorMessage("Message is invalid");
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
+    } else {
+      setMessageErrorMessage("");
     }
   };
 
@@ -115,12 +116,13 @@ function Contact() {
             rows="3"
             onBlur={handleMessageChange}
           ></textarea>
+          {messageErrorMessage && (
+            <div>
+              <p className="text-danger">{messageErrorMessage}</p>
+            </div>
+          )}
         </div>
-        {messageErrorMessage && (
-          <div>
-            <p className="text-danger">{messageErrorMessage}</p>
-          </div>
-        )}
+
         <button type="button" className="btn btn-success mx-5">
           Submit
         </button>
