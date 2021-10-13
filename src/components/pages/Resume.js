@@ -7,9 +7,7 @@ export default function Resume() {
     <div className="container-fluid m-0 resume">
       <div className="row">
         <div className="col-12">
-          <h2 className="text-center" id="resume">
-            R&eacute;sum&eacute;
-          </h2>
+          <h2 className="text-center mt-4">R&eacute;sum&eacute;</h2>
         </div>
         <div className="resume-img text-center ">
           <img src={resume} className="img-responsive w-25 border mx-auto d-block"></img>
@@ -22,7 +20,7 @@ export default function Resume() {
         </div>
         <div className="row my-5 ">
           <div className="col-12">
-            <table className="table w-50 mx-auto">
+            <table className="table w-50 mx-auto table-dark table-striped">
               <thead>
                 <tr>
                   <th scope="col" className="text-center"></th>
@@ -50,6 +48,8 @@ export default function Resume() {
                 </tr>
                 <tr>
                   <td className="text-center">MongoDB</td>
+                  <td className="text-center">API's</td>
+                  <td className="text-center">Handlebars</td>
                 </tr>
               </tbody>
             </table>

@@ -30,7 +30,7 @@ export default function Project() {
               <a
                 href="https://mrohmann.github.io/BaseballDirect/"
                 target="_blank"
-                className="btn btn-primary mr-1"
+                className="btn btn-primary card-button"
               >
                 Live Production
               </a>
@@ -65,7 +65,7 @@ export default function Project() {
               <a
                 href="https://stock-shout.herokuapp.com/"
                 target="_blank"
-                className="btn btn-primary mr-1"
+                className="btn btn-primary card-button"
               >
                 Live Production
               </a>
@@ -98,7 +98,7 @@ export default function Project() {
               <a
                 href="https://nickjchin.github.io/work-day-scheduler"
                 target="_blank"
-                className="btn btn-primary mr-1"
+                className="btn btn-primary card-button"
               >
                 Live Production
               </a>
@@ -132,7 +132,7 @@ export default function Project() {
               <a
                 href="https://nickjchin.github.io/weather-dashboard"
                 target="_blank"
-                className="btn btn-primary mr-1"
+                className="btn btn-primary card-button"
               >
                 Live Production
               </a>
@@ -166,7 +166,7 @@ export default function Project() {
               <a
                 href="https://note-taker-njc.herokuapp.com/"
                 target="_blank"
-                className="btn btn-primary mr-1"
+                className="btn btn-primary card-button"
               >
                 Live Production
               </a>
@@ -203,7 +203,7 @@ export default function Project() {
               <a
                 href="https://nickjchin.github.io/my-portfolio/team.html"
                 target="_blank"
-                className="btn btn-primary mr-1"
+                className="btn btn-primary card-button"
               >
                 Live Production
               </a>

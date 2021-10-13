@@ -1,19 +1,26 @@
 .jumbotron {
   background-color: #7d4e57;
 }
+.navbar-nav li a:hover {
+  text-decoration: underline;
+  text-decoration-color: underline;
+}
 .about {
-  background-color: #f1bf98;
+  background-color: #386150;
   /* background-color: #ffa69e; */
   /* background-color: #004e64; */
 }
 .project-card-group {
   background-color: #364156;
 }
+.card-button {
+  margin-right: 5px;
+}
 .contact {
-  background-color: #afe3c0;
+  background-color: #b27c66 ;
 }
 .resume {
-  background-color: #93b5c6;
+  background-color: #9caea9;
 }
 .resume-links {
   margin-right: 30px;

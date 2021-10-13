@@ -77,7 +77,7 @@ function Contact() {
           <h2 className="text-center mt-4">Contact</h2>
         </div>
       </div>
-      <form className="p-5">
+      <form className="p-5 col-5 mx-auto">
         <div className="form-group px-5 py-3">
           <label for="userName">Name: </label>
           <input
